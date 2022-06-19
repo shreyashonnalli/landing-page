@@ -1,0 +1,121 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+}
+
+a{
+  color: #E5E7EB;
+  text-decoration: none;
+  padding-left: 30px;
+  font-size: 18px;
+}
+
+.body{
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.header{
+  background-color: #1F2937;
+  color: #F9FAF8;
+  padding-left: 48px;
+  padding-right: 48px;
+  padding-bottom: 48px;
+}
+
+
+.motto-container{
+  flex: 1 1 0px;
+  padding-right: 32px;
+}
+.header-container{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 48px;
+  padding-top:12px;
+}
+.quote-container{
+  background-color: #E5E7EB;
+  padding:64px;
+  font-size:36px;
+  font-style:italic;
+  font-weight:100;
+  color:#1F2937;
+
+}
+
+.header-container-2{
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-container-2 img{
+  background-color: grey;
+  min-width: 200px;
+  flex: 1 1 0px;
+
+}
+.footer{
+  background-color: #1F2937;
+  text-align: center;
+  color: #E5E7EB;
+  padding: 32px;
+  font-size: 11px;
+}
+
+.images-text-horizontal-container img{
+  background-color: white;
+  width: 100px;
+  height: 100px;
+  border: 2px solid #3882F6;
+  border-radius: 10px;
+}
+.images-text-horizontal-container{
+  display: flex;
+  padding: 64px;
+  max-width: 700px;
+}
+
+button{
+  background-color: #3882F6;
+  font-weight: bold;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.image-text{
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+}
+
+.call-action-container{
+  display: flex;
+  background-color: #3882F6;
+  border-radius: 10px;
+  color: white;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding-left: 64px;
+  padding-right: 64px;
+  margin-top: 64px;
+  margin-bottom: 64px;
+  margin-left: 32px;
+  margin-right: 32px;
+}
+
+.call-action-container button{
+  border: 1px solid white;
+  margin-left: 128px;
+}
